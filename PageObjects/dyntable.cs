@@ -12,8 +12,9 @@ namespace qaplayground.PageObjects
     {
         IWebDriver driver;
 
-
+        //page factory things
         [FindsBy(How = How.XPath,Using= "//tr/td//div[contains(text(),'Spider-Man')]/parent::div/parent::div/parent::td/following-sibling::td[2]")]
+        //class constructor
         IWebElement row_spider_name { get; set; }
 
         public String get_name() {

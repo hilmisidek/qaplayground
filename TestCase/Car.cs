@@ -8,6 +8,7 @@ namespace qaplayground.TestCase
 {
     public class Car : vehicle
     {
+        //class constructor
         public String entertainment_item { get; set; }
         public Boolean autopilot {  get; set; }
         public String seat_cover {  get; set; }

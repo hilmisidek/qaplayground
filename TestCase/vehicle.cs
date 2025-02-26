@@ -9,7 +9,7 @@ namespace qaplayground.TestCase
 {
     public class vehicle
     {
-        
+        //class constructor
         public String make { get; set; }
         public String model { get; set; }
         public String type { get; set; }
